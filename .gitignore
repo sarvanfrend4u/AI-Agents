@@ -1,0 +1,21 @@
+# Environment — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env.local
+
+# Runtime state — machine-specific, not for source control
+state/event-log.md
+state/active_feature.json
+state/platform-state.md
+
+# Generated output docs (optional — remove these lines to include them)
+# output/
+
+# OS
+.DS_Store

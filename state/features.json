@@ -1,0 +1,808 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-03-04",
+  "totalFeatures": 100,
+  "features": [
+    {
+      "id": "F001",
+      "name": "Draw-a-custom-search-area",
+      "category": "Map & Search",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F002",
+      "name": "Commute-time isochrone search",
+      "category": "Map & Search",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F003",
+      "name": "Natural language conversational search",
+      "category": "Map & Search",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F004",
+      "name": "Voice search",
+      "category": "Map & Search",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F005",
+      "name": "Price heatmap overlay",
+      "category": "Map & Search",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F006",
+      "name": "Search-by-school-catchment",
+      "category": "Map & Search",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F007",
+      "name": "AI keyword amenity tag search",
+      "category": "Map & Search",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F008",
+      "name": "Neighbourhood-first lifestyle search",
+      "category": "Map & Search",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F009",
+      "name": "Street-level view integration",
+      "category": "Map & Search",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F010",
+      "name": "Off-market coming-soon listing access",
+      "category": "Map & Search",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F011",
+      "name": "Saved search with map boundary persistence",
+      "category": "Map & Search",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F012",
+      "name": "ChatGPT external AI platform plugin",
+      "category": "Map & Search",
+      "complexity": "XL",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F013",
+      "name": "3D virtual tour 360 walkthrough",
+      "category": "Listing Display & Media",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F014",
+      "name": "Interactive floor plan with clickable rooms",
+      "category": "Listing Display & Media",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F015",
+      "name": "AI virtual staging",
+      "category": "Listing Display & Media",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F016",
+      "name": "AI furniture removal defurnish",
+      "category": "Listing Display & Media",
+      "complexity": "XL",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F017",
+      "name": "AI decor style switcher",
+      "category": "Listing Display & Media",
+      "complexity": "XL",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F018",
+      "name": "Short-form vertical video feed",
+      "category": "Listing Display & Media",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F019",
+      "name": "Image carousel in search results",
+      "category": "Listing Display & Media",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F020",
+      "name": "Viewing times shown in search results",
+      "category": "Listing Display & Media",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F021",
+      "name": "Inspection open-home planner",
+      "category": "Listing Display & Media",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F022",
+      "name": "Sold price history on listing",
+      "category": "Listing Display & Media",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F023",
+      "name": "Rental yield estimate on listing",
+      "category": "Listing Display & Media",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F024",
+      "name": "AI-optimised photo ordering",
+      "category": "Listing Display & Media",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F025",
+      "name": "New build vs resale toggle",
+      "category": "Filter & Discovery",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F026",
+      "name": "Reduced price-drop filter",
+      "category": "Filter & Discovery",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F027",
+      "name": "RERA-verified listing filter",
+      "category": "Filter & Discovery",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F028",
+      "name": "Commute-time filter",
+      "category": "Filter & Discovery",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F029",
+      "name": "Points of interest proximity filter",
+      "category": "Filter & Discovery",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F030",
+      "name": "Quiet-street low-traffic filter",
+      "category": "Filter & Discovery",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F031",
+      "name": "AI-searchable listing tags 100+",
+      "category": "Filter & Discovery",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F032",
+      "name": "Furnishing status filter",
+      "category": "Filter & Discovery",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F033",
+      "name": "Facing direction filter",
+      "category": "Filter & Discovery",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F034",
+      "name": "Floor number building level filter",
+      "category": "Filter & Discovery",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F035",
+      "name": "Conversational AI search chatbot",
+      "category": "AI & Personalisation",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F036",
+      "name": "Behavioural personalisation engine",
+      "category": "AI & Personalisation",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F037",
+      "name": "Hot Homes demand score",
+      "category": "AI & Personalisation",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F038",
+      "name": "AI-powered AVM Automated Valuation Model",
+      "category": "AI & Personalisation",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F039",
+      "name": "AI valuation assistant explain AVM",
+      "category": "AI & Personalisation",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F040",
+      "name": "Personalised listing recommendations push email",
+      "category": "AI & Personalisation",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F041",
+      "name": "Smart lifestyle fit score",
+      "category": "AI & Personalisation",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F042",
+      "name": "AI rent forecasting",
+      "category": "AI & Personalisation",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F043",
+      "name": "Natural language EMI financing calculator",
+      "category": "AI & Personalisation",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F044",
+      "name": "AI listing description generator for agents",
+      "category": "AI & Personalisation",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F045",
+      "name": "School ratings and catchment overlay",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F046",
+      "name": "Walk Score Bike Score Transit Score",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F047",
+      "name": "Crime density overlay",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F048",
+      "name": "Noise air pollution data overlay",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F049",
+      "name": "Planning permission approval data",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F050",
+      "name": "Demographic and income overlay",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F051",
+      "name": "Transit stops and routes layer",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F052",
+      "name": "Suburb area performance stats",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F053",
+      "name": "Resident-written neighbourhood reviews",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F054",
+      "name": "Green space and parks proximity data",
+      "category": "Neighbourhood & Lifestyle Data",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F055",
+      "name": "Premium boosted listing packages",
+      "category": "Agent & Seller Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F056",
+      "name": "Listing traffic and demand analytics",
+      "category": "Agent & Seller Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F057",
+      "name": "Agent CMA tool with ML pricing",
+      "category": "Agent & Seller Tools",
+      "complexity": "XL",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F058",
+      "name": "Agent calendar appointment manager",
+      "category": "Agent & Seller Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F059",
+      "name": "Deal room transaction management",
+      "category": "Agent & Seller Tools",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F060",
+      "name": "Agent branding and performance analytics",
+      "category": "Agent & Seller Tools",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F061",
+      "name": "Pre-listing home improvement concierge",
+      "category": "Agent & Seller Tools",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F062",
+      "name": "Agent microsite subdomain per agent",
+      "category": "Agent & Seller Tools",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F063",
+      "name": "Listing completeness score",
+      "category": "Agent & Seller Tools",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F064",
+      "name": "Open API for third-party integrations",
+      "category": "Agent & Seller Tools",
+      "complexity": "L",
+      "indiaRelevance": "Low",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F065",
+      "name": "Home loan pre-approval flow",
+      "category": "Buyer Tools",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F066",
+      "name": "EMI mortgage repayment calculator",
+      "category": "Buyer Tools",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F067",
+      "name": "Collaborative shortlist with co-buyer",
+      "category": "Buyer Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F068",
+      "name": "Property collections named organiser",
+      "category": "Buyer Tools",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F069",
+      "name": "Buyer demand signals on listing",
+      "category": "Buyer Tools",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F070",
+      "name": "Tour request showing scheduler in-app",
+      "category": "Buyer Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F071",
+      "name": "In-app messaging buyer and agent",
+      "category": "Buyer Tools",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F072",
+      "name": "Investment-grade property report",
+      "category": "Buyer Tools",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F073",
+      "name": "Auction countdown timer on listing",
+      "category": "Buyer Tools",
+      "complexity": "S",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F074",
+      "name": "Online rental agreement generation",
+      "category": "Buyer Tools",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F075",
+      "name": "Saved search alerts new listings",
+      "category": "Alerts & Notifications",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F076",
+      "name": "Price change alerts on saved listings",
+      "category": "Alerts & Notifications",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F077",
+      "name": "Off-market pre-market property alerts",
+      "category": "Alerts & Notifications",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F078",
+      "name": "Neighbourhood market report periodic digest",
+      "category": "Alerts & Notifications",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F079",
+      "name": "Deal milestone deadline alerts",
+      "category": "Alerts & Notifications",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F080",
+      "name": "Hot Home urgency alert",
+      "category": "Alerts & Notifications",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F081",
+      "name": "Auction reminder countdown alert",
+      "category": "Alerts & Notifications",
+      "complexity": "S",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F082",
+      "name": "Map-draw search on mobile touchscreen",
+      "category": "Mobile-First Features",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F083",
+      "name": "DIY 3D tour capture via smartphone",
+      "category": "Mobile-First Features",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F084",
+      "name": "Short-form video property feed mobile",
+      "category": "Mobile-First Features",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F085",
+      "name": "Inspection planner in mobile app",
+      "category": "Mobile-First Features",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F086",
+      "name": "Cross-device sync",
+      "category": "Mobile-First Features",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F087",
+      "name": "Progressive Web App PWA offline mode",
+      "category": "Mobile-First Features",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F088",
+      "name": "Full sold price history government-sourced",
+      "category": "Data Transparency",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F089",
+      "name": "Rental history on listing",
+      "category": "Data Transparency",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F090",
+      "name": "Days on market counter",
+      "category": "Data Transparency",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F091",
+      "name": "Price history on current listing",
+      "category": "Data Transparency",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F092",
+      "name": "AVM confidence band",
+      "category": "Data Transparency",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F093",
+      "name": "Buyer demand origin heatmap",
+      "category": "Data Transparency",
+      "complexity": "M",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F094",
+      "name": "Market absorption trends by suburb",
+      "category": "Data Transparency",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F095",
+      "name": "Price-per-sqft by address street level",
+      "category": "Data Transparency",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F096",
+      "name": "3D building extrusions zoom 15",
+      "category": "Data Transparency",
+      "complexity": "L",
+      "indiaRelevance": "Medium",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F097",
+      "name": "TNRERA project status tracker",
+      "category": "India-Specific",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F098",
+      "name": "Builder reputation score",
+      "category": "India-Specific",
+      "complexity": "L",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    },
+    {
+      "id": "F099",
+      "name": "Vastu compliance indicator",
+      "category": "India-Specific",
+      "complexity": "S",
+      "indiaRelevance": "High",
+      "status": "COMPLETE",
+      "completedAt": "2026-03-15 16:18 UTC"
+    },
+    {
+      "id": "F100",
+      "name": "Property tax estimate display",
+      "category": "India-Specific",
+      "complexity": "M",
+      "indiaRelevance": "High",
+      "status": "BACKLOG"
+    }
+  ]
+}
